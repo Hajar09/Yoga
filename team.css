@@ -1,0 +1,163 @@
+body {
+    background-color: #DAF6CE;
+    margin: 50px 20px 50px 20px;
+}
+/* header*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 30px 0 0 70px;
+
+}
+.rubriques, ul {
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+list-style: none;
+width: 600px;
+margin: 30px 40px 0 0;
+font-family: 'Bellefair', serif;
+}
+.title {
+    font-family:  'Bellefair', serif;
+    font-size: 50px;
+}
+.titre {
+    font-size: 10px;
+    font-family: 'Bellefair', serif;
+    color: black; 
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+    margin: 0 500px 70px 500px;
+    }
+    .paragraph {
+    font-size: 22px;
+    font-family:'Bellefair', serif;
+    color: black;
+    text-align: center ;
+    padding: 0 130px 0 130px;
+    margin: 50px 0 70px 0;
+    } 
+    footer::before {
+        display: block;
+        height: 2px;
+        background-color: white;
+        content: " ";
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .foot {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px 0 50px 0;
+    }
+    .text {
+    font-family: 'Bellefair', serif;
+    
+    }
+    .facebook {
+        width: 30px;
+        height: 30px;
+    }
+#team {
+    margin-top: 200px;
+}    
+/* partie team */
+.teacher {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0 100px 0;
+   
+}
+.pratiques {
+    padding-top: 70px;
+    font-weight: bold;
+    font-family: 'Bellefair', serif;
+}
+.prof {
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 200px;
+    height: 200px;
+    
+    background-color: #F6E6AE;
+    opacity: 0.95;
+    text-align: center;
+}
+.prof:hover {
+    color: ;
+    transition-duration: 3s;
+    background-image: url('/home/simplonco/Bureau/yoga/images/9_opt.jpg');
+    background-repeat: no-repeat;
+}
+.proftwo {
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 200px;
+    height: 200px;
+ 
+    background-color: #F6E6AE;
+    opacity: 0.95;
+    text-align: center;
+}
+.proftwo:hover {
+background-image: url('/home/simplonco/Bureau/yoga/images/6.jpg');
+color: ;
+transition-duration: 3s;
+background-repeat: no-repeat;
+}
+.profthree {
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 200px;
+    height: 200px;
+   
+    background-color: #F6E6AE;
+    opacity: 0.95;
+    text-align: center;
+}
+.profthree:hover {
+    color: ;
+    transition-duration: 3s;
+    background-image: url('/home/simplonco/Bureau/yoga/images/7.jpg');
+    background-repeat: no-repeat;
+}
+.practice {
+    font-family: 'Bellefair', serif;
+    font-size: 10px;
+    margin-left: 100px;
+}
+#background {
+    background-image: url('./images/11bis_opt.jpg');
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 600px;
+    margin-left: 70px;
+    margin-top: 150px;
+}
+/* partie About*/
+.titre {
+    font-size: 10px;
+    font-family: 'Bellefair', serif;
+    color: black; 
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin: 0 500px 70px 500px;
+    }
+    .paragraph {
+    font-size: 22px;
+    font-family:'Bellefair', serif;
+    color: black;
+    text-align: center ;
+    padding: 0 130px 0 130px;
+    margin: 50px 0 70px 0;
+    } 
+    ul, a {
+        text-decoration: none;
+        color: black;
+        outline: none;
+    }
