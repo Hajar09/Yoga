@@ -116,9 +116,9 @@ td, th {
 #background {
     background-image: url('./images/12_opt.jpg');
     background-repeat: no-repeat;
-    width: 90%;
+    width: 100%;
     height: 600px;
-    margin-left: 70px;
+    margin-left: 100px;
     margin-top: 150px;
 }
 /* partie About*/
